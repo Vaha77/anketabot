@@ -1,0 +1,23 @@
+{
+  "name": "quizbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "http-proxy-agent": "^5.0.0",
+    "mongoose": "^6.8.0",
+    "telegraf": "^4.11.2"
+  }
+}
